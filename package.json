@@ -4,7 +4,6 @@
   "description": "MERN Store",
   "main": "server.js",
   "type": "module",
-  
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -23,7 +22,8 @@
   "homepage": "https://github.com/mannycortez/mcs-store#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
