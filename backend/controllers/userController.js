@@ -150,7 +150,7 @@ const deleteUser = asyncHandler(async (req, res) => {
 const getUserById = asyncHandler(async (req, res) => {
     const user = await User.findById(req.params.id).select('-password')
     if(user) {
-        res.json(users)
+        res.json(user)
     } else {
         res.status(404)
         throw new Error('User not found')
@@ -176,8 +176,7 @@ const updateUser = asyncHandler(async (req, res) => {
             _id: updateUser._id,
             name: updateUser.name,
             email: updateUser.email,
-            isAdmin: updateUser.isAdmin,
-            token: generateToken(updatedUser._id)
+            isAdmin: updateUser.isAdmin
         })
 
     } else {
