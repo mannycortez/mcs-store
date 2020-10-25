@@ -31,7 +31,11 @@ const HomeScreen = ({ match }) => {
       {!keyword ? <ProductCarousel /> : <Link to='/' className='btn btn-light'>
         Go Back
         </Link>}
-          <h1>Latest Products</h1>
+        <br />
+          <h1 style={{'textAlign': 'center'}}>Welcome to My Shop</h1>
+          <p style={{'textAlign': 'center'}}>These are my original paintings and prints available for sale. Thank you for your support.</p>
+          <br />
+          <p style={{'textAlign': 'center'}}>-Manny</p>
             {loading ? (
               <Loader />
             ) : error ? (
