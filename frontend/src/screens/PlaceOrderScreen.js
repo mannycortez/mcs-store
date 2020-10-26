@@ -23,7 +23,7 @@ const PlaceOrderScreen = ({history}) => {
 
     cart.shippingPrice = addDecimals(cart.itemsPrice > 100 ? 0 : 100)
 
-    cart.taxPrice = addDecimals(Number((0.15 * cart.itemsPrice).toFixed(2)))
+    cart.taxPrice = addDecimals(Number((0.08 * cart.itemsPrice).toFixed(2)))
 
     cart.totalPrice = (Number(cart.itemsPrice) + Number(cart.shippingPrice) + Number(cart.taxPrice)).toFixed(2)
 
