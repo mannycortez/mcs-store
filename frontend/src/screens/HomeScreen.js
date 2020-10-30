@@ -34,8 +34,8 @@ const HomeScreen = ({ match }) => {
         <br />
           <h1 style={{'textAlign': 'center'}}>Welcome to My Shop</h1>
           <p style={{'textAlign': 'center'}}>I'm an expressionist painter from Atlanta, GA currently living in San Francisco, CA. 
-          I've shown in several galleries over the years including Muse and Co Fine Art Gallery (Roswell, GA), 
-          Art Gallery Seven(Atlanta, GA), Lagerquist Gallery (Atlanta, GA), and Ember Gallery (Chattanooga, TN)
+          I've shown in several galleries over the years including Muse and Co Fine Art Gallery (Roswell, GA), Carre D'Artiste (Atlanta, GA), 
+          Art Gallery Seven (Atlanta, GA), Lagerquist Gallery (Atlanta, GA), and Ember Gallery (Chattanooga, TN)
           These are my original paintings and prints available for sale. Thank you for your support.</p>
           <br />
           <p style={{'textAlign': 'center'}}>-Manny</p>
